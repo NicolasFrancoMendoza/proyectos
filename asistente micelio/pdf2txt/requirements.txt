@@ -1,0 +1,11 @@
+pymupdf>=1.24
+pymupdf4llm>=0.0.17
+
+# --- OCR opcional (instalar solo si se activa OCR_PROVIDER) ---
+# pytesseract>=0.3.10      # OCR_PROVIDER=tesseract (requiere también el binario tesseract-ocr: https://github.com/UB-Mannheim/tesseract/wiki y descargar los idiomas necesarios)
+# pillow>=10.0
+# paddleocr>=2.7           # OCR_PROVIDER=paddleocr (recomendado)
+# paddlepaddle>=2.6
+# numpy>=1.24
+# anthropic>=0.40          # OCR_PROVIDER=claude_vision
+# python-dotenv>=1.0
